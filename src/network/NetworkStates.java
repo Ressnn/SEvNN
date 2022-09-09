@@ -9,7 +9,6 @@ public class NetworkStates {
         final int gStates = globalStates;
         final int maxIncoming = maxIncomingConnections;
         final int maxOutgoing = maxOutgoingConnections;
-
     }
 
 
