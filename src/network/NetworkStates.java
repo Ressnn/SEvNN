@@ -1,13 +1,13 @@
 package network;
-
+import network.GlobalVals;
 public class NetworkStates {
 
     public int states;
     public int lDims;
-    public int gStates;
+    public GlobalVals gStates;
     public int maxIncoming;
     public int maxOutgoing;
-    public void NetworkStates(int numStates,int locationDims,int globalStates,int maxIncomingConnections, int maxOutgoingConnections) {
+    public void NetworkStates(int numStates,int locationDims,GlobalVals globalStates,int maxIncomingConnections, int maxOutgoingConnections) {
         states = numStates;
         lDims = locationDims;
         gStates = globalStates;
@@ -15,7 +15,7 @@ public class NetworkStates {
         maxOutgoing = maxOutgoingConnections;
     }
 
-    public int getgStates() {
+    public GlobalVals getgStates() {
         return gStates;
     }
 

@@ -3,7 +3,7 @@ import network.NetworkStates;
 
 public class SelfEvolvingNetwork {
 
-    NetworkStates settings;
+    public NetworkStates settings;
     public SelfEvolvingNetwork(NetworkStates settings){
         this.settings = settings;
     }
